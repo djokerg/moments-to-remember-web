@@ -1,0 +1,8 @@
+/* App layout refinements for full-width homepage */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}

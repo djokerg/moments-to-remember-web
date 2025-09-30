@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* Tailwind only; set global body background so side whitespace matches */
+body { background-color: #003A70; color: #e6f0fa; }
