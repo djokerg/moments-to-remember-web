@@ -34,7 +34,7 @@ function App() {
         { path: "bookings", element: <BookingsPage /> },
       ],
     },
-  ]);
+  ], { basename: import.meta.env.BASE_URL });
   return (
     <AuthProvider>
       <RouterProvider router={router} />
